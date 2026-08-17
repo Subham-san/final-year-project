@@ -51,7 +51,7 @@ img:hover{
   width: 220px;
   transition: 0.7s ease;
 }
-#its{
+/*#its{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border:  1px solid rgba(255,255,255,0.4);
   border-radius: 8px;
@@ -65,7 +65,7 @@ img:hover{
   background-color: gray;
   cursor: pointer;
   transition: 0.1s ease-in;
-}
+}*/
 .about-container{
   display: flex;
   justify-content: left;
@@ -79,6 +79,7 @@ img:hover{
   animation-name: slideleft;
   animation-duration: 0.8s;
   transition: 1s ease-in-out;
+  font-size: 1em;
 }
 #its1:hover{
   background-color: gray;
@@ -94,6 +95,7 @@ img:hover{
   animation-name: slideleft;
   animation-duration: 1s;
   transition: 1s ease-in-out;
+  font-size: 1em;
 }
 #its2:hover{
   background-color: gray;
@@ -109,6 +111,7 @@ img:hover{
   animation-name: slideleft;
   animation-duration: 1.2s;
   transition: 1s ease-in-out;
+  font-size: 1em;
 }
 #its3:hover{
   background-color: gray;
@@ -124,6 +127,7 @@ img:hover{
   animation-name: slideleft;
   animation-duration:  1.5s;
   transition: 1s ease-in-out;
+  font-size: 1em;
 }
 #its4:hover{
   background-color: rgb(145, 142, 142);
@@ -140,4 +144,32 @@ to {
     transform: translatex(0);
     opacity: 1;
 }
+}
+p{
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 12px;
+  box-shadow: 5px 5px 8px black;
+  text-align: center;
+  font-size: 2em;
+  width: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation-name: slideleft;
+  animation-duration:  1.5s;
+  transition: 1s ease-in-out;
+}
+.bold{
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.learn{
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.edit{
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.web{
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
