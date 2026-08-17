@@ -42,6 +42,7 @@ img{
   animation-name: slideup;
   animation-duration: 1.5s;
   transition: 1s ease-in-out;
+  box-shadow: 5px 5px 8px black ;
 }
 img:hover{
   background-color: gray;
