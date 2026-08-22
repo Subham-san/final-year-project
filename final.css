@@ -33,7 +33,7 @@ to {
   display: flex;
   justify-content: center;
 }
-img{
+.subham{
   height: auto;
   width: 200px;
   border-radius: 100%;
@@ -199,4 +199,47 @@ p{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
   text-align: center;
+}
+.ctr-cl{
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 12px;
+  box-shadow: 5px 5px 8px black;
+  text-align: center;
+  font-size: 2em;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 30%;
+  animation-name: slideup;
+  animation-duration:  1.5s;
+  transition: 1s ease-in-out;
+}
+/* Outer Parent Container */
+.prove {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.google {
+  width: 260px !important;       
+  min-width: 260px !important;    
+  flex-shrink: 0 !important;
+  box-sizing: border-box;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 12px;
+  box-shadow: 5px 5px 8px black;
+}
+.google:hover{
+  cursor: pointer;
+  height: auto;
+  width: 220px;
+  transition: 1s ease;
 }
